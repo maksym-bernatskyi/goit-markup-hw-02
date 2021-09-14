@@ -1,0 +1,61 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  /* цвет контактов в футере color: rgba(255, 255, 255, 0.6); */
+}
+body {
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+  background: var(--primary-white-color);
+}
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.logo-part {
+  color: var(--primary-text-color);
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* .site-nav .link.current { 
+  color: var(--accent-color);
+}*/
+.contacts-nav {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.benefits-title,
+.work,
+.team,
+.team-title,
+.team-member {
+  color: var(--primary-text-color);
+}
+.benefits-text,
+.team-member-profession {
+  color: var(--secondary-text-color);
+}
