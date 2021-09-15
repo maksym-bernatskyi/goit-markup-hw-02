@@ -4,8 +4,8 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-bg-color: #2f303a;
-  /* цвет контактов в футере color: rgba(255, 255, 255, 0.6); */
 }
+
 body {
   position: relative;
   width: 1600px;
@@ -13,10 +13,11 @@ body {
   background: var(--primary-white-color);
   font-family: Roboto;
 }
+
 ul {
   list-style: none;
 }
-
+/* ---------header------------ */
 .logo {
   color: var(--accent-color);
   text-decoration: none;
@@ -57,6 +58,7 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+/* ---------hero------------ */
 .hero {
   background-color: var(--secondary-bg-color);
 }
@@ -87,6 +89,7 @@ ul {
   border-radius: 4px;
   cursor: pointer;
 }
+/* ---------benefits------------ */
 .benefits-title {
   font-family: Roboto;
   font-style: normal;
@@ -106,6 +109,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+/* ---------work------------ */
 .work .title,
 .team .title {
   font-family: Roboto;
@@ -117,6 +121,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+/* ---------team------------ */
 .team .team-member {
   font-family: Roboto;
   font-style: normal;
@@ -137,7 +142,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-
+/* ---------footer------------ */
 .footer {
   background-color: var(--secondary-bg-color);
 }
@@ -164,7 +169,8 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-
+/* ---------portfolio------------ */
+/* ---------portfolio buttons------------ */
 .button {
   font-family: Roboto;
   font-style: normal;
@@ -178,6 +184,7 @@ ul {
   border-radius: 4px;
   cursor: pointer;
 }
+/* ---------portfolio gallery------------ */
 .gallery .title {
   font-family: Roboto;
   font-style: normal;
