@@ -44,9 +44,9 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-/* .site-nav .link.current { 
+.site-nav .link.current {
   color: var(--accent-color);
-}*/
+}
 .contacts-nav .link {
   color: var(--secondary-text-color);
   font-family: Roboto;
@@ -106,7 +106,6 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-
 .work .title,
 .team .title {
   font-family: Roboto;
@@ -118,7 +117,6 @@ ul {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
 .team .team-member {
   font-family: Roboto;
   font-style: normal;
@@ -129,7 +127,6 @@ ul {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
 .team .profession {
   font-family: Roboto;
   font-style: normal;
@@ -166,4 +163,36 @@ ul {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.gallery .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.gallery .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
