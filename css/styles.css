@@ -11,7 +11,7 @@ body {
   width: 1600px;
   height: 2349px;
   background: var(--primary-white-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 ul {
@@ -57,6 +57,10 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
 }
 /* ---------hero------------ */
 .hero {
@@ -168,6 +172,10 @@ ul {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.address .contacts:hover,
+.address .contacts:focus {
+  color: var(--accent-color);
 }
 /* ---------portfolio------------ */
 /* ---------portfolio buttons------------ */
