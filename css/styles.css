@@ -192,6 +192,11 @@ ul {
   border-radius: 4px;
   cursor: pointer;
 }
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
 /* ---------portfolio gallery------------ */
 .gallery .title {
   font-family: Roboto;
